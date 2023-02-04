@@ -14,7 +14,8 @@ Share your code seemlessly directly from vs code to vs code.
   • Helpful for quick code sharing
 
 
-
+<h2>Share Code:</h2>
 <h2>Share Code: <img src="https://raw.githubusercontent.com/lsgdefault/CodeShare/main/img/sharecode.gif"><br/></h2>
-<h2>Receive Code: <img src="https://raw.githubusercontent.com/lsgdefault/CodeShare/main/img/receivecode.gif"><br/></h2>
+<h2>Receive Code:</h2>
+<h2> <img src="https://raw.githubusercontent.com/lsgdefault/CodeShare/main/img/receivecode.gif"><br/></h2>
 

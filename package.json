@@ -1,0 +1,64 @@
+{
+  "name": "codeshare",
+  "displayName": "CodeShare",
+  "description": "Share your code seemlessly directly from vs code to vs code",
+  "publisher": "LsgDefault",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "codeshare.sharecode",
+        "title": "Share Code (codeshare)"
+      },
+      {
+        "command": "codeshare.receivecode",
+        "title": "Receive Code (codeshare)"
+      }
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "command": "codeshare.sharecode",
+          "group": "editorContextMenu69",
+          "when": "editorTextFocus && !editorReadonly",
+          "title": "Share Code (codeshare)"
+        },
+        {
+          "command": "codeshare.receivecode",
+          "group": "editorContextMenu69",
+          "when": "editorTextFocus && !editorReadonly",
+          "title": "Receive Code (codeshare)"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "node ./test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/glob": "^8.0.1",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "16.x",
+    "@types/vscode": "^1.74.0",
+    "@vscode/test-electron": "^2.2.2",
+    "eslint": "^8.33.0",
+    "glob": "^8.1.0",
+    "mocha": "^10.1.0",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "@types/firebase": "^3.2.1",
+    "firebase": "^8.0.0"
+  }
+}

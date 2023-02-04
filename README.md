@@ -1,4 +1,4 @@
-# CodeShare Rename
+# CodeShare
 
 Share your code seemlessly directly from vs code to vs code.
 
@@ -10,5 +10,6 @@ Share your code seemlessly directly from vs code to vs code.
 
 Share Code: 
 ![Demo GIF Sharecode](./img/sharecode.gif)
+\n /n
 Receive Code:
 ![Demo GIF Sharecode](./img/receivecode.gif)

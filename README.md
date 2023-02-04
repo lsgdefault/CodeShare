@@ -8,10 +8,10 @@ Vscode Extension to Share your code seemlessly directly from vs code to vs code.
 
 # Features
 
-  • Share code directly from vscode
-  • no need to login or open whatsapp or gmail to share link for code
-  • Share code and get the code instantly
-  • Helpful for quick code sharing
+      • Share code directly from vscode
+      • no need to login or open whatsapp or gmail to share link for code
+      • Share code and get the code instantly
+      • Helpful for quick code sharing
 
 
 <h2>Share Code:</h2>

@@ -18,7 +18,7 @@ let team_code =  generateCode();
 
 function activate() {
 
-    const firebaseConfig = {apiKey: "AIzaSyDtnfMisM4J6p2a_T1vskkKJMPnHwOoPYI", databaseURL: "https://codeshare-6969-default-rtdb.asia-southeast1.firebasedatabase.app",};
+    const firebaseConfig = {"Hidden Due to Privacy"};
     // @ts-ignore
     firebase.initializeApp(firebaseConfig);
     // @ts-ignore
